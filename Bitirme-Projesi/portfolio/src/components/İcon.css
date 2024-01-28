@@ -1,0 +1,38 @@
+.right-widget {
+    position: fixed;
+    bottom: 20px; /* veya istediğiniz değer */
+    right: 20px; /* veya istediğiniz değer */
+    z-index: 1000; /* Diğer elemanların üzerinde olması için */
+  }
+  
+  .request {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* veya istediğiniz renk */
+    transition: color 0.3s; /* Renk değişimini smooth hale getirir */
+  }
+  
+  .request:hover {
+    color: #ffcc00; /* veya istediğiniz hover rengi */
+  }
+  
+  .icon-container {
+    background-color: #8cd28b;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Renk değişimini smooth hale getirir */
+  }
+  
+  .icon-container:hover {
+    background-color: #5f9f5f; /* veya istediğiniz hover arka plan rengi */
+  }
+  
+  .icon {
+    font-size: 50px;
+  }
+  
+  .text {
+    margin-left: 8px; /* İkon ile metin arasındaki boşluk */
+  }
+  

@@ -1,0 +1,44 @@
+
+
+
+
+
+/*header alanı*/
+
+ .alan{width: 100%; height:400px; background-color:#003034; padding-top: 20px; border-bottom-left-radius:40%;border-bottom-right-radius:40%;}
+ .nav{ justify-content: space-between; display: inline; position: fixed; top: 20px;background-color: #003034; height: 80px; border-radius: 40px; border: 1px #fff solid; display: block; width: 80%; padding-right: 20px; z-index: 100;}
+ .nav li{ float: left; margin: 0 30px; margin-top: 25px; }
+ .nav li a{ color: #FFFFFF; text-decoration: none; font-size: 15px;}
+.nav li a:hover{color:#7B7B7B; }
+.nav button:hover{background-color:#1A3519; }
+ .nav button{ margin-top: 20px; width: 120px; height: 40px; border-radius: 50px; background-color: #8cd28b; color: #FFFFFF; border:none;}
+.yazı h1 { color:#FFFFFF; font-size: 82px; text-align: center; margin-top:200px;}
+.yazı p{font-size: 20px; text-align: center; color: #959595;}
+.yazı button{ margin-top: 20px; width: 120px; height: 40px; border-radius: 50px; background-color: #8cd28b; color: #FFFFFF; border:none; text-align: center; }
+
+/*header alanı*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

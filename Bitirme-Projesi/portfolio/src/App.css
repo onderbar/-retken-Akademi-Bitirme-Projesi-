@@ -1,0 +1,27 @@
+/* App.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    overflow-y: auto; /* Sayfa boyunca dikey (yukarı-aşağı) scroll bar */
+    max-height: 100vh;
+    scrollbar-width: thin; /* Mozilla Firefox için */
+    scrollbar-color: #8cd28b #003034; /* Mozilla Firefox için */
+  }
+  
+  body::-webkit-scrollbar {
+    width: 12px; /* Google Chrome, Safari ve Opera için */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8cd28b; /* Scroll bar rengi */
+    border-radius: 6px; /* Scroll bar köşe yarıçapı */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #003034; /* Scroll bar arka plan rengi */
+  }
+  
